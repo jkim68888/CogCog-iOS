@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		9AFDA3402D2000AA00EDEEBB /* CogCog_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA33F2D2000AA00EDEEBB /* CogCog_iOSApp.swift */; };
-		9AFDA3422D2000AA00EDEEBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA3412D2000AA00EDEEBB /* ContentView.swift */; };
 		9AFDA3442D2000AB00EDEEBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AFDA3432D2000AB00EDEEBB /* Assets.xcassets */; };
 		9AFDA3472D2000AB00EDEEBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AFDA3462D2000AB00EDEEBB /* Preview Assets.xcassets */; };
+		9AFDA3512D2011B000EDEEBB /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA3502D2011B000EDEEBB /* OnBoardingView.swift */; };
+		9AFDA3582D20125D00EDEEBB /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA3572D20125D00EDEEBB /* WelcomeView.swift */; };
+		9AFDA35A2D20126700EDEEBB /* PersonalInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA3592D20126700EDEEBB /* PersonalInfoView.swift */; };
+		9AFDA35C2D2013AE00EDEEBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA35B2D2013AE00EDEEBB /* ContentView.swift */; };
+		9AFDA35F2D20148E00EDEEBB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA35E2D20148E00EDEEBB /* HomeView.swift */; };
+		9AFDA3622D20160A00EDEEBB /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA3612D20160A00EDEEBB /* GameView.swift */; };
+		9AFDA3652D2018F900EDEEBB /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA3642D2018F900EDEEBB /* StatisticsView.swift */; };
+		9AFDA3682D20191500EDEEBB /* MyInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA3672D20191500EDEEBB /* MyInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9AFDA33C2D2000AA00EDEEBB /* CogCog-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CogCog-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AFDA33F2D2000AA00EDEEBB /* CogCog_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CogCog_iOSApp.swift; sourceTree = "<group>"; };
-		9AFDA3412D2000AA00EDEEBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9AFDA3432D2000AB00EDEEBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AFDA3462D2000AB00EDEEBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9AFDA3502D2011B000EDEEBB /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		9AFDA3572D20125D00EDEEBB /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		9AFDA3592D20126700EDEEBB /* PersonalInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoView.swift; sourceTree = "<group>"; };
+		9AFDA35B2D2013AE00EDEEBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9AFDA35E2D20148E00EDEEBB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9AFDA3612D20160A00EDEEBB /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		9AFDA3642D2018F900EDEEBB /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		9AFDA3672D20191500EDEEBB /* MyInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +65,9 @@
 		9AFDA33E2D2000AA00EDEEBB /* CogCog-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				9AFDA34E2D20116400EDEEBB /* ViewModel */,
+				9AFDA34D2D20115D00EDEEBB /* View */,
 				9AFDA33F2D2000AA00EDEEBB /* CogCog_iOSApp.swift */,
-				9AFDA3412D2000AA00EDEEBB /* ContentView.swift */,
 				9AFDA3432D2000AB00EDEEBB /* Assets.xcassets */,
 				9AFDA3452D2000AB00EDEEBB /* Preview Content */,
 			);
@@ -65,6 +80,92 @@
 				9AFDA3462D2000AB00EDEEBB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9AFDA34D2D20115D00EDEEBB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9AFDA3662D20190900EDEEBB /* MyInfo */,
+				9AFDA3632D2018EA00EDEEBB /* Statistics */,
+				9AFDA3602D20160100EDEEBB /* Game */,
+				9AFDA35D2D20148400EDEEBB /* Home */,
+				9AFDA34F2D20119C00EDEEBB /* OnBoarding */,
+				9AFDA35B2D2013AE00EDEEBB /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9AFDA34E2D20116400EDEEBB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9AFDA34F2D20119C00EDEEBB /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				9AFDA3532D20120E00EDEEBB /* CheckList */,
+				9AFDA3562D20124900EDEEBB /* Welcome */,
+				9AFDA3522D2011BB00EDEEBB /* PersonalInfo */,
+				9AFDA3502D2011B000EDEEBB /* OnBoardingView.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		9AFDA3522D2011BB00EDEEBB /* PersonalInfo */ = {
+			isa = PBXGroup;
+			children = (
+				9AFDA3592D20126700EDEEBB /* PersonalInfoView.swift */,
+			);
+			path = PersonalInfo;
+			sourceTree = "<group>";
+		};
+		9AFDA3532D20120E00EDEEBB /* CheckList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CheckList;
+			sourceTree = "<group>";
+		};
+		9AFDA3562D20124900EDEEBB /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				9AFDA3572D20125D00EDEEBB /* WelcomeView.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		9AFDA35D2D20148400EDEEBB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9AFDA35E2D20148E00EDEEBB /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9AFDA3602D20160100EDEEBB /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				9AFDA3612D20160A00EDEEBB /* GameView.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		9AFDA3632D2018EA00EDEEBB /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				9AFDA3642D2018F900EDEEBB /* StatisticsView.swift */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		9AFDA3662D20190900EDEEBB /* MyInfo */ = {
+			isa = PBXGroup;
+			children = (
+				9AFDA3672D20191500EDEEBB /* MyInfoView.swift */,
+			);
+			path = MyInfo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +238,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AFDA3422D2000AA00EDEEBB /* ContentView.swift in Sources */,
+				9AFDA3582D20125D00EDEEBB /* WelcomeView.swift in Sources */,
+				9AFDA35C2D2013AE00EDEEBB /* ContentView.swift in Sources */,
+				9AFDA3652D2018F900EDEEBB /* StatisticsView.swift in Sources */,
+				9AFDA35A2D20126700EDEEBB /* PersonalInfoView.swift in Sources */,
+				9AFDA3682D20191500EDEEBB /* MyInfoView.swift in Sources */,
+				9AFDA35F2D20148E00EDEEBB /* HomeView.swift in Sources */,
+				9AFDA3512D2011B000EDEEBB /* OnBoardingView.swift in Sources */,
 				9AFDA3402D2000AA00EDEEBB /* CogCog_iOSApp.swift in Sources */,
+				9AFDA3622D20160A00EDEEBB /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
