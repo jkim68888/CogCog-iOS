@@ -26,7 +26,6 @@ struct CogCog_iOSApp: App {
 			} else {
 				ContentView()
 			}
-
         }
     }
 }

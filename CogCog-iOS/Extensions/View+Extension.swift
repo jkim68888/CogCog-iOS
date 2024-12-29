@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// MARK: - 스와이프 액션
 extension View {
 	func dragGesture(tolerance: Double = 24, direction: DragGesture.Value.Direction, actionOnEnded: @escaping () -> ()) -> some View {
 		simultaneousGesture(DragGesture()

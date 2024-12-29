@@ -28,6 +28,7 @@
 		9AFDA37C2D20F90F00EDEEBB /* CheckListStep4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA37B2D20F90F00EDEEBB /* CheckListStep4View.swift */; };
 		9AFDA37E2D20F91A00EDEEBB /* CheckListStep5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA37D2D20F91A00EDEEBB /* CheckListStep5View.swift */; };
 		9AFDA3812D20FA6500EDEEBB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFDA3802D20FA6500EDEEBB /* Launch Screen.storyboard */; };
+		9AFDA38A2D20FE0F00EDEEBB /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA3892D20FE0F00EDEEBB /* Font+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,13 @@
 		9AFDA37B2D20F90F00EDEEBB /* CheckListStep4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListStep4View.swift; sourceTree = "<group>"; };
 		9AFDA37D2D20F91A00EDEEBB /* CheckListStep5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListStep5View.swift; sourceTree = "<group>"; };
 		9AFDA3802D20FA6500EDEEBB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		9AFDA3822D20FD2900EDEEBB /* SpoqaHanSansNeo-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Medium.otf"; sourceTree = "<group>"; };
+		9AFDA3832D20FD2A00EDEEBB /* SpoqaHanSansNeo-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Light.otf"; sourceTree = "<group>"; };
+		9AFDA3842D20FD2A00EDEEBB /* SpoqaHanSansNeo-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Bold.otf"; sourceTree = "<group>"; };
+		9AFDA3852D20FD2B00EDEEBB /* SpoqaHanSansNeo-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Thin.otf"; sourceTree = "<group>"; };
+		9AFDA3862D20FD2B00EDEEBB /* SpoqaHanSansNeo-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Regular.otf"; sourceTree = "<group>"; };
+		9AFDA3892D20FE0F00EDEEBB /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		9AFDA38B2D20FF4E00EDEEBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +97,7 @@
 				9AFDA34E2D20116400EDEEBB /* ViewModel */,
 				9AFDA34D2D20115D00EDEEBB /* View */,
 				9AFDA33F2D2000AA00EDEEBB /* CogCog_iOSApp.swift */,
+				9AFDA38B2D20FF4E00EDEEBB /* Info.plist */,
 				9AFDA37F2D20FA3B00EDEEBB /* Resources */,
 				9AFDA3452D2000AB00EDEEBB /* Preview Content */,
 			);
@@ -193,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				9AFDA36A2D2048AA00EDEEBB /* View+Extension.swift */,
+				9AFDA3892D20FE0F00EDEEBB /* Font+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -208,6 +218,11 @@
 		9AFDA37F2D20FA3B00EDEEBB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9AFDA3842D20FD2A00EDEEBB /* SpoqaHanSansNeo-Bold.otf */,
+				9AFDA3832D20FD2A00EDEEBB /* SpoqaHanSansNeo-Light.otf */,
+				9AFDA3822D20FD2900EDEEBB /* SpoqaHanSansNeo-Medium.otf */,
+				9AFDA3862D20FD2B00EDEEBB /* SpoqaHanSansNeo-Regular.otf */,
+				9AFDA3852D20FD2B00EDEEBB /* SpoqaHanSansNeo-Thin.otf */,
 				9AFDA3432D2000AB00EDEEBB /* Assets.xcassets */,
 				9AFDA3802D20FA6500EDEEBB /* Launch Screen.storyboard */,
 			);
@@ -290,6 +305,7 @@
 				9AFDA35C2D2013AE00EDEEBB /* ContentView.swift in Sources */,
 				9AFDA36B2D2048AA00EDEEBB /* View+Extension.swift in Sources */,
 				9AFDA3762D20F8EA00EDEEBB /* CheckListStep1View.swift in Sources */,
+				9AFDA38A2D20FE0F00EDEEBB /* Font+Extension.swift in Sources */,
 				9AFDA3652D2018F900EDEEBB /* StatisticsView.swift in Sources */,
 				9AFDA35A2D20126700EDEEBB /* PersonalInfoView.swift in Sources */,
 				9AFDA3682D20191500EDEEBB /* MyInfoView.swift in Sources */,
@@ -439,6 +455,7 @@
 				DEVELOPMENT_TEAM = 6RZ3FF956G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CogCog-iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -472,6 +489,7 @@
 				DEVELOPMENT_TEAM = 6RZ3FF956G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CogCog-iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

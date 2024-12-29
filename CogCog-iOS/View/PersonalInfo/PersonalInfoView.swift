@@ -12,6 +12,9 @@ struct PersonalInfoView: View {
 		NavigationLink(destination: PersonalInfoInputFormView()) {
 			VStack {
 				Text("우선, 회원님의\n정보를 입력해주세요.")
+					.font(.spoqaNeo(size: 28, family: .medium))
+					.foregroundStyle(.black)
+					.lineSpacing(10)
 			}
 		}
     }
