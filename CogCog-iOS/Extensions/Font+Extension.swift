@@ -10,7 +10,7 @@ import SwiftUI
 // MARK: - 커스텀 폰트
 extension Font {
 	enum Family: String {
-		case thin, light, regular, medium, bold
+		case Thin, Light, Regular, Medium, Bold
 	}
 	
 	static func spoqaNeo(size: CGFloat, family: Family) -> Font {

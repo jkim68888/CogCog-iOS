@@ -8,8 +8,30 @@
 import SwiftUI
 
 struct WelcomeView: View {
+	
+	@AppStorage("hasPersonalInfo") private var hasPersonalInfo: Bool = false
+	
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+		VStack {
+			Spacer()
+			HStack {
+				Spacer()
+				Text("환영합니다, 영애님!")
+					.font(.spoqaNeo(size: 28, family: .Medium))
+					.foregroundStyle(.white)
+				Spacer()
+			}
+			Image(.welcomIcon)
+			Spacer()
+		}
+		.ignoresSafeArea()
+		.background(Color("#6349EB"))
+		.toolbar(.hidden, for: .navigationBar)
+		.onAppear {
+			DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+				hasPersonalInfo = true
+			}
+		}
     }
 }
 

@@ -29,6 +29,12 @@
 		9AFDA37E2D20F91A00EDEEBB /* CheckListStep5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA37D2D20F91A00EDEEBB /* CheckListStep5View.swift */; };
 		9AFDA3812D20FA6500EDEEBB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFDA3802D20FA6500EDEEBB /* Launch Screen.storyboard */; };
 		9AFDA38A2D20FE0F00EDEEBB /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA3892D20FE0F00EDEEBB /* Font+Extension.swift */; };
+		9AFDA38D2D21397300EDEEBB /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA38C2D21397300EDEEBB /* Color+Extension.swift */; };
+		9AFDA38F2D21615000EDEEBB /* SpoqaHanSansNeo-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9AFDA3842D20FD2A00EDEEBB /* SpoqaHanSansNeo-Bold.otf */; };
+		9AFDA3902D21615300EDEEBB /* SpoqaHanSansNeo-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9AFDA3832D20FD2A00EDEEBB /* SpoqaHanSansNeo-Light.otf */; };
+		9AFDA3912D21615600EDEEBB /* SpoqaHanSansNeo-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9AFDA3862D20FD2B00EDEEBB /* SpoqaHanSansNeo-Regular.otf */; };
+		9AFDA3922D21615800EDEEBB /* SpoqaHanSansNeo-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9AFDA3822D20FD2900EDEEBB /* SpoqaHanSansNeo-Medium.otf */; };
+		9AFDA3932D21615A00EDEEBB /* SpoqaHanSansNeo-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9AFDA3852D20FD2B00EDEEBB /* SpoqaHanSansNeo-Thin.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +67,7 @@
 		9AFDA3862D20FD2B00EDEEBB /* SpoqaHanSansNeo-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Regular.otf"; sourceTree = "<group>"; };
 		9AFDA3892D20FE0F00EDEEBB /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
 		9AFDA38B2D20FF4E00EDEEBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9AFDA38C2D21397300EDEEBB /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +210,7 @@
 			children = (
 				9AFDA36A2D2048AA00EDEEBB /* View+Extension.swift */,
 				9AFDA3892D20FE0F00EDEEBB /* Font+Extension.swift */,
+				9AFDA38C2D21397300EDEEBB /* Color+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -287,9 +295,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AFDA3902D21615300EDEEBB /* SpoqaHanSansNeo-Light.otf in Resources */,
+				9AFDA3932D21615A00EDEEBB /* SpoqaHanSansNeo-Thin.otf in Resources */,
+				9AFDA3912D21615600EDEEBB /* SpoqaHanSansNeo-Regular.otf in Resources */,
+				9AFDA3922D21615800EDEEBB /* SpoqaHanSansNeo-Medium.otf in Resources */,
 				9AFDA3812D20FA6500EDEEBB /* Launch Screen.storyboard in Resources */,
 				9AFDA3472D2000AB00EDEEBB /* Preview Assets.xcassets in Resources */,
 				9AFDA3442D2000AB00EDEEBB /* Assets.xcassets in Resources */,
+				9AFDA38F2D21615000EDEEBB /* SpoqaHanSansNeo-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +324,7 @@
 				9AFDA3682D20191500EDEEBB /* MyInfoView.swift in Sources */,
 				9AFDA37A2D20F90500EDEEBB /* CheckListStep3View.swift in Sources */,
 				9AFDA3722D20F8BC00EDEEBB /* StartCheckListView.swift in Sources */,
+				9AFDA38D2D21397300EDEEBB /* Color+Extension.swift in Sources */,
 				9AFDA35F2D20148E00EDEEBB /* HomeView.swift in Sources */,
 				9AFDA36D2D20F6F500EDEEBB /* PersonalInfoInputFormView.swift in Sources */,
 				9AFDA3782D20F8FA00EDEEBB /* CheckListStep2View.swift in Sources */,
