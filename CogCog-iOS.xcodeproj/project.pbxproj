@@ -19,6 +19,15 @@
 		9AFDA3652D2018F900EDEEBB /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA3642D2018F900EDEEBB /* StatisticsView.swift */; };
 		9AFDA3682D20191500EDEEBB /* MyInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA3672D20191500EDEEBB /* MyInfoView.swift */; };
 		9AFDA36B2D2048AA00EDEEBB /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA36A2D2048AA00EDEEBB /* View+Extension.swift */; };
+		9AFDA36D2D20F6F500EDEEBB /* PersonalInfoInputFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA36C2D20F6F500EDEEBB /* PersonalInfoInputFormView.swift */; };
+		9AFDA3702D20F77D00EDEEBB /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA36F2D20F77D00EDEEBB /* SplashScreenView.swift */; };
+		9AFDA3722D20F8BC00EDEEBB /* StartCheckListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA3712D20F8BC00EDEEBB /* StartCheckListView.swift */; };
+		9AFDA3762D20F8EA00EDEEBB /* CheckListStep1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA3752D20F8EA00EDEEBB /* CheckListStep1View.swift */; };
+		9AFDA3782D20F8FA00EDEEBB /* CheckListStep2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA3772D20F8FA00EDEEBB /* CheckListStep2View.swift */; };
+		9AFDA37A2D20F90500EDEEBB /* CheckListStep3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA3792D20F90500EDEEBB /* CheckListStep3View.swift */; };
+		9AFDA37C2D20F90F00EDEEBB /* CheckListStep4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA37B2D20F90F00EDEEBB /* CheckListStep4View.swift */; };
+		9AFDA37E2D20F91A00EDEEBB /* CheckListStep5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA37D2D20F91A00EDEEBB /* CheckListStep5View.swift */; };
+		9AFDA3812D20FA6500EDEEBB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFDA3802D20FA6500EDEEBB /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +44,15 @@
 		9AFDA3642D2018F900EDEEBB /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
 		9AFDA3672D20191500EDEEBB /* MyInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInfoView.swift; sourceTree = "<group>"; };
 		9AFDA36A2D2048AA00EDEEBB /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		9AFDA36C2D20F6F500EDEEBB /* PersonalInfoInputFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoInputFormView.swift; sourceTree = "<group>"; };
+		9AFDA36F2D20F77D00EDEEBB /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		9AFDA3712D20F8BC00EDEEBB /* StartCheckListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartCheckListView.swift; sourceTree = "<group>"; };
+		9AFDA3752D20F8EA00EDEEBB /* CheckListStep1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListStep1View.swift; sourceTree = "<group>"; };
+		9AFDA3772D20F8FA00EDEEBB /* CheckListStep2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListStep2View.swift; sourceTree = "<group>"; };
+		9AFDA3792D20F90500EDEEBB /* CheckListStep3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListStep3View.swift; sourceTree = "<group>"; };
+		9AFDA37B2D20F90F00EDEEBB /* CheckListStep4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListStep4View.swift; sourceTree = "<group>"; };
+		9AFDA37D2D20F91A00EDEEBB /* CheckListStep5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListStep5View.swift; sourceTree = "<group>"; };
+		9AFDA3802D20FA6500EDEEBB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +89,7 @@
 				9AFDA34E2D20116400EDEEBB /* ViewModel */,
 				9AFDA34D2D20115D00EDEEBB /* View */,
 				9AFDA33F2D2000AA00EDEEBB /* CogCog_iOSApp.swift */,
-				9AFDA3432D2000AB00EDEEBB /* Assets.xcassets */,
+				9AFDA37F2D20FA3B00EDEEBB /* Resources */,
 				9AFDA3452D2000AB00EDEEBB /* Preview Content */,
 			);
 			path = "CogCog-iOS";
@@ -92,7 +110,10 @@
 				9AFDA3632D2018EA00EDEEBB /* Statistics */,
 				9AFDA3602D20160100EDEEBB /* Game */,
 				9AFDA35D2D20148400EDEEBB /* Home */,
+				9AFDA3532D20120E00EDEEBB /* CheckList */,
+				9AFDA3522D2011BB00EDEEBB /* PersonalInfo */,
 				9AFDA34F2D20119C00EDEEBB /* OnBoarding */,
+				9AFDA36E2D20F75600EDEEBB /* SplashScreen */,
 				9AFDA35B2D2013AE00EDEEBB /* ContentView.swift */,
 			);
 			path = View;
@@ -108,9 +129,6 @@
 		9AFDA34F2D20119C00EDEEBB /* OnBoarding */ = {
 			isa = PBXGroup;
 			children = (
-				9AFDA3532D20120E00EDEEBB /* CheckList */,
-				9AFDA3562D20124900EDEEBB /* Welcome */,
-				9AFDA3522D2011BB00EDEEBB /* PersonalInfo */,
 				9AFDA3502D2011B000EDEEBB /* OnBoardingView.swift */,
 			);
 			path = OnBoarding;
@@ -120,6 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				9AFDA3592D20126700EDEEBB /* PersonalInfoView.swift */,
+				9AFDA36C2D20F6F500EDEEBB /* PersonalInfoInputFormView.swift */,
+				9AFDA3572D20125D00EDEEBB /* WelcomeView.swift */,
 			);
 			path = PersonalInfo;
 			sourceTree = "<group>";
@@ -127,16 +147,14 @@
 		9AFDA3532D20120E00EDEEBB /* CheckList */ = {
 			isa = PBXGroup;
 			children = (
+				9AFDA3712D20F8BC00EDEEBB /* StartCheckListView.swift */,
+				9AFDA3752D20F8EA00EDEEBB /* CheckListStep1View.swift */,
+				9AFDA3772D20F8FA00EDEEBB /* CheckListStep2View.swift */,
+				9AFDA3792D20F90500EDEEBB /* CheckListStep3View.swift */,
+				9AFDA37B2D20F90F00EDEEBB /* CheckListStep4View.swift */,
+				9AFDA37D2D20F91A00EDEEBB /* CheckListStep5View.swift */,
 			);
 			path = CheckList;
-			sourceTree = "<group>";
-		};
-		9AFDA3562D20124900EDEEBB /* Welcome */ = {
-			isa = PBXGroup;
-			children = (
-				9AFDA3572D20125D00EDEEBB /* WelcomeView.swift */,
-			);
-			path = Welcome;
 			sourceTree = "<group>";
 		};
 		9AFDA35D2D20148400EDEEBB /* Home */ = {
@@ -177,6 +195,23 @@
 				9AFDA36A2D2048AA00EDEEBB /* View+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9AFDA36E2D20F75600EDEEBB /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9AFDA36F2D20F77D00EDEEBB /* SplashScreenView.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		9AFDA37F2D20FA3B00EDEEBB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9AFDA3432D2000AB00EDEEBB /* Assets.xcassets */,
+				9AFDA3802D20FA6500EDEEBB /* Launch Screen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AFDA3812D20FA6500EDEEBB /* Launch Screen.storyboard in Resources */,
 				9AFDA3472D2000AB00EDEEBB /* Preview Assets.xcassets in Resources */,
 				9AFDA3442D2000AB00EDEEBB /* Assets.xcassets in Resources */,
 			);
@@ -249,16 +285,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AFDA37C2D20F90F00EDEEBB /* CheckListStep4View.swift in Sources */,
 				9AFDA3582D20125D00EDEEBB /* WelcomeView.swift in Sources */,
 				9AFDA35C2D2013AE00EDEEBB /* ContentView.swift in Sources */,
 				9AFDA36B2D2048AA00EDEEBB /* View+Extension.swift in Sources */,
+				9AFDA3762D20F8EA00EDEEBB /* CheckListStep1View.swift in Sources */,
 				9AFDA3652D2018F900EDEEBB /* StatisticsView.swift in Sources */,
 				9AFDA35A2D20126700EDEEBB /* PersonalInfoView.swift in Sources */,
 				9AFDA3682D20191500EDEEBB /* MyInfoView.swift in Sources */,
+				9AFDA37A2D20F90500EDEEBB /* CheckListStep3View.swift in Sources */,
+				9AFDA3722D20F8BC00EDEEBB /* StartCheckListView.swift in Sources */,
 				9AFDA35F2D20148E00EDEEBB /* HomeView.swift in Sources */,
+				9AFDA36D2D20F6F500EDEEBB /* PersonalInfoInputFormView.swift in Sources */,
+				9AFDA3782D20F8FA00EDEEBB /* CheckListStep2View.swift in Sources */,
 				9AFDA3512D2011B000EDEEBB /* OnBoardingView.swift in Sources */,
 				9AFDA3402D2000AA00EDEEBB /* CogCog_iOSApp.swift in Sources */,
+				9AFDA37E2D20F91A00EDEEBB /* CheckListStep5View.swift in Sources */,
 				9AFDA3622D20160A00EDEEBB /* GameView.swift in Sources */,
+				9AFDA3702D20F77D00EDEEBB /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +442,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
@@ -408,9 +453,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jihyunkim.CogCog-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -428,6 +475,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
@@ -438,9 +486,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jihyunkim.CogCog-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

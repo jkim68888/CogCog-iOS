@@ -9,9 +9,9 @@ import SwiftUI
 
 struct OnBoardingView: View {
 	
-	@AppStorage("hasLaunchedBefore") private var hasLaunchedBefore = false
+	@AppStorage("hasLaunched") private var hasLaunched = false
 	@State private var pageNumber: Int = 1
-	private let lastPageNumber: Int = 5
+	private let lastPageNumber: Int = 4
 	
 	var body: some View {
 		VStack {
@@ -28,7 +28,7 @@ struct OnBoardingView: View {
 				}
 			} else {
 				// MARK: - 온보딩 끝
-				hasLaunchedBefore = true
+				hasLaunched = true
 			}
 		}
 		.dragGesture(direction: .left) {
@@ -36,6 +36,16 @@ struct OnBoardingView: View {
 				withAnimation {
 					pageNumber -= 1
 				}
+			}
+		}
+		.onTapGesture {
+			if pageNumber != lastPageNumber {
+				withAnimation {
+					pageNumber += 1
+				}
+			} else {
+				// MARK: - 온보딩 끝
+				hasLaunched = true
 			}
 		}
 		.edgesIgnoringSafeArea(.all)
