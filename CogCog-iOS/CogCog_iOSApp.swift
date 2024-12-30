@@ -10,14 +10,14 @@ import SwiftUI
 @main
 struct CogCog_iOSApp: App {
 	
-	@AppStorage("hasLaunched") private var hasLaunched: Bool = false
+	@AppStorage("hasLaunchedBefore") private var hasLaunchedBefore: Bool = false
 	@AppStorage("hasPersonalInfo") private var hasPersonalInfo: Bool = false
 	@AppStorage("hasCheckList") private var hasCheckList: Bool = false
 	@State var isSplashView = true
 	
     var body: some Scene {
         WindowGroup {
-			if !hasLaunched  {
+			if !hasLaunchedBefore  {
 				OnBoardingView()
 			} else if !hasPersonalInfo {
 				PersonalInfoView()

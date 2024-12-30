@@ -17,10 +17,10 @@ struct PersonalInfoInputFormView: View {
 				.foregroundColor(.white)
 				.clipShape(
 					.rect(
-						topLeadingRadius: 30.7,
+						topLeadingRadius: 30,
 						bottomLeadingRadius: 0,
 						bottomTrailingRadius: 0,
-						topTrailingRadius: 30.7
+						topTrailingRadius: 30
 					)
 				)
 				.padding(.top, 108)
@@ -207,6 +207,7 @@ struct PersonalInfoInputFormView: View {
 				.padding(.top, 50)
 			}
 			.padding(.top, 108)
+			.padding(.bottom, 40)
 		}
 		.toolbar(.hidden, for: .navigationBar)
     }

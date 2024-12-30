@@ -9,7 +9,7 @@ import SwiftUI
 
 struct OnBoardingView: View {
 	
-	@AppStorage("hasLaunched") private var hasLaunched = false
+	@AppStorage("hasLaunchedBefore") private var hasLaunchedBefore = false
 	@State private var pageNumber: Int = 1
 	private let lastPageNumber: Int = 4
 	
@@ -28,7 +28,7 @@ struct OnBoardingView: View {
 				}
 			} else {
 				// MARK: - 온보딩 끝
-				hasLaunched = true
+				hasLaunchedBefore = true
 			}
 		}
 		.dragGesture(direction: .left) {
@@ -45,7 +45,7 @@ struct OnBoardingView: View {
 				}
 			} else {
 				// MARK: - 온보딩 끝
-				hasLaunched = true
+				hasLaunchedBefore = true
 			}
 		}
 		.edgesIgnoringSafeArea(.all)

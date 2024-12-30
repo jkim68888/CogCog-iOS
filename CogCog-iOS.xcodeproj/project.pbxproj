@@ -35,6 +35,7 @@
 		9AFDA3912D21615600EDEEBB /* SpoqaHanSansNeo-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9AFDA3862D20FD2B00EDEEBB /* SpoqaHanSansNeo-Regular.otf */; };
 		9AFDA3922D21615800EDEEBB /* SpoqaHanSansNeo-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9AFDA3822D20FD2900EDEEBB /* SpoqaHanSansNeo-Medium.otf */; };
 		9AFDA3932D21615A00EDEEBB /* SpoqaHanSansNeo-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9AFDA3852D20FD2B00EDEEBB /* SpoqaHanSansNeo-Thin.otf */; };
+		9AFDA3952D224B1800EDEEBB /* FinishCheckListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDA3942D224B1800EDEEBB /* FinishCheckListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		9AFDA3892D20FE0F00EDEEBB /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
 		9AFDA38B2D20FF4E00EDEEBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9AFDA38C2D21397300EDEEBB /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		9AFDA3942D224B1800EDEEBB /* FinishCheckListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishCheckListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 				9AFDA3792D20F90500EDEEBB /* CheckListStep3View.swift */,
 				9AFDA37B2D20F90F00EDEEBB /* CheckListStep4View.swift */,
 				9AFDA37D2D20F91A00EDEEBB /* CheckListStep5View.swift */,
+				9AFDA3942D224B1800EDEEBB /* FinishCheckListView.swift */,
 			);
 			path = CheckList;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				9AFDA35C2D2013AE00EDEEBB /* ContentView.swift in Sources */,
 				9AFDA36B2D2048AA00EDEEBB /* View+Extension.swift in Sources */,
 				9AFDA3762D20F8EA00EDEEBB /* CheckListStep1View.swift in Sources */,
+				9AFDA3952D224B1800EDEEBB /* FinishCheckListView.swift in Sources */,
 				9AFDA38A2D20FE0F00EDEEBB /* Font+Extension.swift in Sources */,
 				9AFDA3652D2018F900EDEEBB /* StatisticsView.swift in Sources */,
 				9AFDA35A2D20126700EDEEBB /* PersonalInfoView.swift in Sources */,
