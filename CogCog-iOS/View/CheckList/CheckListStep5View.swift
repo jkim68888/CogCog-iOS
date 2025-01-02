@@ -10,8 +10,11 @@ import SwiftUI
 struct CheckListStep5View: View {
 	
 	let data = [
+		"잠들기 어렵거나 자주 깸",
 		"스트레스",
-		"예민"
+		"기억력 감퇴",
+		"예민",
+		"우울"
 	]
 	
 	let columns = [
